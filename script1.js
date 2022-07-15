@@ -19,4 +19,5 @@ function setCookie(){
 	let expires = "expires="+d.toUTCString();
 	document.cookie = cname+"="+cvalue+";"+ expires +";path=/";*/
 	document.cookie = "username=John Doe"; 
+	console.log("here");
 }
